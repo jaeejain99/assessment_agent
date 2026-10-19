@@ -1,0 +1,13 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+
+env:
+  - name: "DATABRICKS_WAREHOUSE_ID"
+    value: "76700d73baa4b088"  
+  - name: DATABRICKS_WORKSPACE_URL
+    value: "https://dbc-b094cbf0-602d.cloud.databricks.com/"
+  - name: PERSONAL_ACCESS_TOKEN
+    value: "dapi066118a5f05fa7fd45cfb166c8b51758"
